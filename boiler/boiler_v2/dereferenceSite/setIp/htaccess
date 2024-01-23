@@ -1,0 +1,5 @@
+RewriteBase /
+AuthType Basic
+AuthName "This is the boiler, stupid!"
+AuthUserFile /home/a1011150/.htpasswd
+Require valid-user
